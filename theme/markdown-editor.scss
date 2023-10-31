@@ -1,0 +1,7 @@
+@import "./colors.scss";
+
+#root .v-application .editor-markdown {
+    .editor-markdown-toolbar {
+        background-image: linear-gradient(180deg,$kaspa-green,darken($kaspa-green, 15%));
+    }
+}

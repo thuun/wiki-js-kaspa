@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Oswald&family=Rubik:wght@300;400;600&display=swap");
+#root .v-application .editor-markdown .editor-markdown-toolbar {
+  background-image: linear-gradient(180deg, #70C7BA, #42a999); }
+
+#root .v-application {
+  font: normal normal 16px 'Lato', sans-serif; }
+  #root .v-application .primary {
+    background-color: #70C7BA !important;
+    border-color: #70C7BA !important; }
+  #root .v-application .primary--text {
+    color: #70C7BA !important;
+    caret-color: #70C7BA !important; }
+  #root .v-application .v-toolbar__title .subheading {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px; }
+  #root .v-application .nav-header.v-app-bar.v-app-bar,
+  #root .v-application .nav-header .v-toolbar.v-sheet {
+    background-color: #231F20 !important; }
+    #root .v-application .nav-header.v-app-bar.v-app-bar .v-input__slot,
+    #root .v-application .nav-header .v-toolbar.v-sheet .v-input__slot {
+      background-color: #000; }
+  #root .v-application .blue.darken-2 {
+    background-color: #4bb9a8 !important; }
+  #root .v-application .blue.darken-3 {
+    background-color: #3b9689 !important; }
+  #root .v-application .v-navigation-drawer .__bar-wrap-is-vertical .__bar-is-vertical {
+    background-color: #70C7BA !important; }
+  #root .v-application .v-navigation-drawer .v-list.primary {
+    background-color: #231F20 !important; }
+  #root .v-application .v-speed-dial .v-btn.v-btn--fab.btn-animate-edit {
+    background-color: #70C7BA !important; }
+  #root .v-application .v-speed-dial .v-btn.v-btn--fab.red {
+    background-color: #DD2E44 !important; }
+  #root .v-application .page-header-section .headline {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #231F20; }
+  #root .v-application .page-header-section .caption {
+    color: #909090 !important; }
+  #root .v-application .v-main .contents h1,
+  #root .v-application .v-main .contents h2,
+  #root .v-application .v-main .contents h3,
+  #root .v-application .v-main .contents h4,
+  #root .v-application .v-main .contents h5 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #231F20;
+    margin-top: 1.5rem; }
+    #root .v-application .v-main .contents h1::after,
+    #root .v-application .v-main .contents h2::after,
+    #root .v-application .v-main .contents h3::after,
+    #root .v-application .v-main .contents h4::after,
+    #root .v-application .v-main .contents h5::after {
+      display: none; }
+  #root .v-application .v-main .contents h1 {
+    color: #70C7BA;
+    margin-top: 3rem; }
+  #root .v-application .v-main .contents h1:first-child {
+    margin-top: 0; }
+  #root .v-application .v-main .contents h2 {
+    font-size: 2rem; }
+  #root .v-application .v-main .contents h3 {
+    font-size: 1.5rem;
+    font-family: 'Oswald', sans-serif; }
+  #root .v-application .v-main .contents h4 {
+    font-size: 1.25rem;
+    color: #B6B6B6; }
+  #root .v-application .v-main .contents h5 {
+    font-size: 1rem;
+    font-style: normal;
+    color: #B6B6B6; }
+  #root .v-application .v-main .contents a {
+    font-weight: 600;
+    text-decoration: none;
+    color: #4bb9a8;
+    transition-property: color;
+    transition-duration: 0.5s; }
+    #root .v-application .v-main .contents a:hover, #root .v-application .v-main .contents a:focus {
+      color: #231F20;
+      border-bottom: 1px #49EACB dashed; }
+  #root .v-application .v-main .contents p > code {
+    background-color: #49EACB;
+    color: #231F20; }
+  #root .v-application .v-main .contents blockquote {
+    border-left-color: #231F20; }
+    #root .v-application .v-main .contents blockquote.is-info {
+      color: #231F20;
+      border-left-color: #70C7BA; }
+      #root .v-application .v-main .contents blockquote.is-info::before {
+        color: #FFF; }
+    #root .v-application .v-main .contents blockquote.is-warning {
+      border-left-color: #DAA039; }
+      #root .v-application .v-main .contents blockquote.is-warning::before {
+        color: #FFF; }
+    #root .v-application .v-main .contents blockquote.is-danger {
+      border-left-color: #DD2E44; }
+      #root .v-application .v-main .contents blockquote.is-danger::before {
+        color: #FFF; }
+    #root .v-application .v-main .contents blockquote.is-success {
+      border-left-color: #49EACB;
+      background-color: #a4f5e5;
+      color: #108a73; }
+      #root .v-application .v-main .contents blockquote.is-success::before {
+        color: #FFF; }
