@@ -1,7 +1,13 @@
 # WikiJS Theme for Kaspa Wiki
 A theme for the [Kaspa Wiki](https://wiki.kaspa.org).
 
-You can use the theme directly by copying the [compiled theme](https://github.com/thuun/wiki-js-kaspa/blob/master/theme/publish/wiki.css) into your WikiJS instance. Navigate to Administration -> Themes, and under "Code Injection" drop the contents to the "CSS Override" then click Apply.
+## Installation
+
+You can use the theme directly by copying the [compiled theme](https://github.com/thuun/wiki-js-kaspa/blob/master/theme/publish/wiki.css) into your WikiJS instance. 
+
+Navigate to Administration -> Themes, and under "Code Injection" drop the contents to the "CSS Override" then click Apply.
+
+> :bulb: This is not a theme "package", instead is provided as simple CSS overrides to the standard WikiJS theme.
 
 -----
 
