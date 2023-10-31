@@ -6,7 +6,7 @@ A theme for the [Kaspa Wiki](https://wiki.kaspa.org).
 You can use the theme directly by copying the [compiled theme](https://github.com/thuun/wiki-js-kaspa/blob/master/theme/publish/wiki.css) into your WikiJS instance. 
 
 1. Login with an administrator account and navigate to Administration (top right gear), then "Themes".
-2. Paste this CSS into the "CSS Override" textbox.
+2. Paste [this CSS](https://github.com/thuun/wiki-js-kaspa/blob/master/theme/publish/wiki.css) into the "CSS Override" textbox.
 3. Then click Apply.
 
 ![install](install.jpg)
