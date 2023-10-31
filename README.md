@@ -23,7 +23,7 @@ Then to build the `theme/`:
 sass --style=nested --sourcemap=none --watch kaspa-wiki.scss:publish/wiki.css
 ```
 
-Create a database:
+Create a peristent data folder for the docker wikiJS database:
 ```sh
 mkdir data && chmod 777 data
 ```
