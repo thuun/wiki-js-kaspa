@@ -7,7 +7,7 @@ You can use the theme directly by copying the [compiled theme](https://github.co
 
 Navigate to Administration -> Themes, and under "Code Injection" drop the contents to the "CSS Override" then click Apply.
 
-> :bulb: This is not a theme "package", instead is provided as simple CSS overrides to the standard WikiJS theme.
+> :bulb: This is not a theme "package", instead it is provided as simple CSS overrides to the standard WikiJS theme.
 
 -----
 
