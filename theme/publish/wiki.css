@@ -24,6 +24,9 @@
     background-color: #4bb9a8 !important; }
   #root .v-application .blue.darken-3 {
     background-color: #3b9689 !important; }
+  #root .v-application .deep-purple {
+    background-color: #3b9689 !important;
+    border-color: #3b9689 !important; }
   #root .v-application .v-navigation-drawer .__bar-wrap-is-vertical .__bar-is-vertical {
     background-color: #70C7BA !important; }
   #root .v-application .v-navigation-drawer .v-list.primary {

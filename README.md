@@ -5,6 +5,8 @@ You can use the theme directly by copying the [compiled theme](https://github.co
 
 -----
 
+## Development
+
 To build the theme, you'll need sass:
 ```sh
 apt install sass

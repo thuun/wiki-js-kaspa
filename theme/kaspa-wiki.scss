@@ -39,6 +39,11 @@
         background-color: darken($kaspa-green, 20%) !important;
     }
 
+    .deep-purple {
+        background-color: darken($kaspa-green, 20%) !important;
+        border-color: darken($kaspa-green, 20%) !important;
+    }
+
     .v-navigation-drawer {
         .__bar-wrap-is-vertical .__bar-is-vertical {
             background-color: $kaspa-green !important;
