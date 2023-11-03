@@ -1,5 +1,25 @@
 # WikiJS Theme for Kaspa Wiki
-A theme for the [Kaspa Wiki](https://wiki.kaspa.org).
+A theme for the [Official Kaspa Wiki](https://wiki.kaspa.org).
+
+Supports light & dark mode.
+
+> :bulb: You can enable Dark/Light Mode by signing into your free wiki account on [wiki.kaspa.org](https://wiki.kaspa.org)
+> and under "Preferences" edit your "Appearance" setting to your choice.
+
+## Screenshots
+### Light Mode
+![](screenshots/screenshot-1.jpg)
+![](screenshots/screenshot-2.jpg)
+![](screenshots/screenshot-3.jpg)
+![](screenshots/screenshot-4.jpg)
+
+### Dark Mode
+![](screenshots/screenshot-1-dark.jpg)
+![](screenshots/screenshot-2-dark.jpg)
+![](screenshots/screenshot-3-dark.jpg)
+![](screenshots/screenshot-4-dark.jpg)
+
+----
 
 ## Installation
 
@@ -12,8 +32,6 @@ You can use the theme directly by copying the [compiled theme](https://github.co
 ![install](install.jpg)
 
 > :bulb: This is not a theme "package", instead it is provided as simple CSS overrides to the standard WikiJS theme.
-
------
 
 ## Development
 These instructions assume you are running a modern x86 linux OS. You will need to adapt them accordingly to your OS if you are running something different.
