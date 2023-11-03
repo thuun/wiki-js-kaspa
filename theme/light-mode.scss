@@ -1,0 +1,201 @@
+
+#root .v-application {
+    font: normal normal 16px 'Lato', sans-serif;
+
+    .primary {
+        background-color: $kaspa-green !important;
+        border-color: $kaspa-green !important;
+    }
+
+    .primary--text {
+        color: $kaspa-green !important;
+        caret-color: $kaspa-green !important;
+    }
+
+    .v-toolbar__title .subheading {
+        font-family: 'Rubik', sans-serif;
+        font-weight: 700;
+        letter-spacing: 1px;
+    }
+
+    .nav-header.v-app-bar.v-app-bar,
+    .nav-header .v-toolbar.v-sheet {
+        background-color: $kaspa-black !important;
+
+        .v-input__slot {
+            background-color: #000;
+        }
+    }
+
+    .blue.darken-2 {
+        background-color: darken($kaspa-green, 10%) !important;
+    }
+
+    .blue.darken-3 {
+        background-color: darken($kaspa-green, 20%) !important;
+    }
+
+    .deep-purple {
+        background-color: darken($kaspa-green, 20%) !important;
+        border-color: darken($kaspa-green, 20%) !important;
+    }
+
+    .v-navigation-drawer {
+        .__bar-wrap-is-vertical .__bar-is-vertical {
+            background-color: $kaspa-green !important;
+        }
+        .v-list.primary {
+            background-color: $kaspa-black !important;
+        }
+    }
+
+    .v-speed-dial .v-btn.v-btn--fab {
+
+        &.btn-animate-edit {
+            background-color: $kaspa-green !important;
+        }
+
+        &.red {
+            background-color: $kaspa-red !important;
+        }
+    }
+
+    .page-header-section {
+        .headline {
+            font-family: 'Rubik', sans-serif;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: $kaspa-black;
+        }
+
+        .caption {
+            color: $kaspa-dark-grey !important;
+        }
+    }
+
+    .page-col-sd {
+        .page-toc-card {}
+    }
+
+    .v-main .contents {
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5 {
+            font-family: 'Rubik', sans-serif;
+            font-size: 2.5rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: $kaspa-black;
+            margin-top: 1.5rem;
+
+            &::after {
+                display: none;
+            }
+        }
+
+        h1 {
+            color: $kaspa-green;
+            margin-top: 3rem;
+        }
+
+        h1:first-child {
+            margin-top: 0;
+        }
+
+        h2 {
+            font-size: 2rem;
+        }
+
+        h3 {
+            font-size: 1.5rem;
+            font-family: 'Oswald', sans-serif;
+        }
+
+        h4 {
+            font-size: 1.25rem;
+            color: $kaspa-grey;
+        }
+
+        h5 {
+            font-size: 1rem;
+            font-style: normal;
+            color: $kaspa-grey;
+        }
+
+        a {
+            font-weight: 600;
+            text-decoration: none;
+            color: darken($kaspa-green, 10%);
+            transition-property: color;
+            transition-duration: 0.5s;
+
+            &:hover,
+            &:focus {
+                color: $kaspa-black;
+                border-bottom: 1px $kaspa-melon dashed;
+            }
+        }
+
+        code {
+            background-color: $kaspa-melon;
+            color: $kaspa-black;
+        }
+
+        .prismjs code {
+            background-color: transparent;
+            color: $kaspa-white;
+        }
+
+        blockquote {
+            border-left-color: $kaspa-black;
+
+            &.is-info {
+                color: $kaspa-black;
+                border-left-color: $kaspa-green;
+
+                &::before {
+                    color: $kaspa-white;
+                }
+            }
+
+            &.is-warning {
+                border-left-color: $kaspa-orange;
+
+                &::before {
+                    color: $kaspa-white;
+                }
+            }
+
+            &.is-danger {
+                border-left-color: $kaspa-red;
+
+                &::before {
+                    color: $kaspa-white;
+                }
+            }
+
+            &.is-success {
+                border-left-color: $kaspa-melon;
+                background-color: lighten($kaspa-melon, 20%);
+                color: darken($kaspa-melon, 30%);
+
+                &::before {
+                    color: $kaspa-white;
+                }
+            }
+        }
+
+    }
+
+    .v-footer {
+        a {
+            text-decoration: none;
+            color: darken($kaspa-green, 10%);
+        }
+    }
+}

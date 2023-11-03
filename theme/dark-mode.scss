@@ -1,0 +1,82 @@
+#root .v-application.theme--dark {
+
+    .v-main .contents {
+        h2 {
+            color: lighten($kaspa-melon, 10%);
+        }
+
+        h3 {
+            color: lighten($kaspa-melon, 20%);
+        }
+
+        h4 {
+            color: $kaspa-white;
+        }
+
+        h5 {
+            color: $kaspa-white;
+        }
+
+        a {
+            color: $kaspa-green;
+
+            &:hover,
+            &:focus {
+                color: $kaspa-white;
+            }
+        }
+
+        blockquote {
+            background-color: lighten($kaspa-black, 2%);
+            border-left-color: $kaspa-grey;
+            color: $kaspa-white;
+
+            &::before {
+                color: $kaspa-black;
+            }
+
+            &.is-info {
+                background-color: darken($kaspa-green, 50%);
+                color: $kaspa-white;
+                border-left-color: $kaspa-green;
+
+                &::before {
+                    color: $kaspa-white;
+                }
+            }
+
+            &.is-warning {
+                background-color: darken($kaspa-orange, 30%);
+                border-left-color: darken($kaspa-orange, 10%);
+
+                &::before {
+                    color: $kaspa-white;
+                }
+            }
+
+            &.is-danger {
+                background-color: darken($kaspa-red, 30%);
+                border-left-color: darken($kaspa-red, 10%);
+
+                &::before {
+                    color: $kaspa-white;
+                }
+            }
+
+            &.is-success {
+                border-left-color: $kaspa-green;
+                background-color: darken($kaspa-green, 20%);
+                color: $kaspa-white;
+
+                &::before {
+                    color: $kaspa-white;
+                }
+            }
+        }
+    }
+    
+    .v-footer {
+        opacity: 0.75;
+    }
+
+}

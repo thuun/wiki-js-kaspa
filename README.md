@@ -37,8 +37,8 @@ curl -L "https://registry.npmjs.org/@esbuild/linux-x64/-/linux-x64-0.19.4.tgz" \
 
 To build the theme, cd into `theme/` and then run either the build script `build.sh` or execute commands separately:
 ```sh
-sass --style=nested --sourcemap=none kaspa-wiki.scss:publish/wiki.css
-esbuild kaspa-wiki.js --bundle --outdir=publish --format=iife
+sass --no-source-map kaspa-wiki.scss publish/wiki.css
+esbuild kaspa-wiki.js --bundle --outfile=publish/wiki.js --format=iife
 ```
 
 *Optionally* you can instead affix the `--watch` argument to these commands to watch the theme files for changes and automatically have them recompiled.
