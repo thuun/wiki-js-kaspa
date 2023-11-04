@@ -65,12 +65,12 @@
 #root .v-application .v-main .contents h4,
 #root .v-application .v-main .contents h5 {
   font-family: "Rubik", sans-serif;
-  font-size: 2.5rem;
+  font-size: 3rem;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 1px;
   color: #231F20;
-  margin-top: 1.5rem;
+  margin-top: 2rem;
 }
 #root .v-application .v-main .contents h1::after,
 #root .v-application .v-main .contents h2::after,
@@ -81,13 +81,14 @@
 }
 #root .v-application .v-main .contents h1 {
   color: #70C7BA;
-  margin-top: 3rem;
+  margin-top: 3.5rem;
 }
 #root .v-application .v-main .contents h1:first-child {
   margin-top: 0;
 }
 #root .v-application .v-main .contents h2 {
-  font-size: 2rem;
+  margin-top: 2.5rem;
+  font-size: 2.5rem;
 }
 #root .v-application .v-main .contents h3 {
   font-size: 1.5rem;

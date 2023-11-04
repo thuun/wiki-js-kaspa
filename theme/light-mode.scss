@@ -86,12 +86,12 @@
         h4,
         h5 {
             font-family: 'Rubik', sans-serif;
-            font-size: 2.5rem;
+            font-size: 3rem;
             font-weight: 700;
             text-transform: uppercase;
             letter-spacing: 1px;
             color: $kaspa-black;
-            margin-top: 1.5rem;
+            margin-top: 2rem;
 
             &::after {
                 display: none;
@@ -100,7 +100,7 @@
 
         h1 {
             color: $kaspa-green;
-            margin-top: 3rem;
+            margin-top: 3.5rem;
         }
 
         h1:first-child {
@@ -108,7 +108,8 @@
         }
 
         h2 {
-            font-size: 2rem;
+            margin-top: 2.5rem;
+            font-size: 2.5rem;
         }
 
         h3 {
