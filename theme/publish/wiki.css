@@ -70,7 +70,7 @@
   text-transform: uppercase;
   letter-spacing: 1px;
   color: #231F20;
-  margin-top: 1.5rem;
+  margin-top: 2rem;
 }
 #root .v-application .v-main .contents h1::after,
 #root .v-application .v-main .contents h2::after,
@@ -81,7 +81,7 @@
 }
 #root .v-application .v-main .contents h1 {
   color: #70C7BA;
-  margin-top: 3rem;
+  margin-top: 3.5rem;
 }
 #root .v-application .v-main .contents h1:first-child {
   margin-top: 0;
@@ -89,9 +89,8 @@
 #root .v-application .v-main .contents h2 {
   margin-top: 3rem;
   font-size: 1.5rem;
-  padding-bottom: 1rem;
-  margin-left: -0.125rem;
-  border-width: 0.125rem;
+  border-width: 0;
+  border-bottom-width: 0.125rem;
   border-style: solid;
   border-image: linear-gradient(to right, #70C7BA, rgba(255, 255, 255, 0)) 0 0 1 0;
 }
@@ -100,7 +99,6 @@
   color: #6a6a6a;
   font-family: "Oswald", sans-serif;
   text-transform: capitalize;
-  margin-top: 1rem;
 }
 #root .v-application .v-main .contents h4 {
   font-size: 1.125rem;
